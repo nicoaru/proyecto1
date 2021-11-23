@@ -1,0 +1,19 @@
+/* hr:not([size]) {
+    height: 1px;
+} */
+ 
+.collapsed-navbar-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(243, 235, 235, 0.15);
+}
+
+/* hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+} */
+

@@ -1,0 +1,18 @@
+.navbar-brand-imgSm {
+    height: 32px;
+}
+    @media (min-width: 992px) {
+        .navbar-brand-imgSm {
+            display: none; 
+        } 
+    }
+
+.navbar-brand-imgLg {
+    height: 34px;
+    display: none;
+}
+    @media (min-width: 992px) {
+        .navbar-brand-imgLg {
+            display: block; 
+        } 
+    }

@@ -4,28 +4,29 @@ import Container from "react-bootstrap/Container"
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from "react-bootstrap/NavDropdown"
 import notifIcon from "../../recursos/notifIcon.png"
+import { CartWidget } from "../cartWidget/cartWidget"
 import "./navBarDesktop.css"
 
 
 function NavBarDesktop() {
     return(
-        <Navbar className="navbar-desktop" variant="dark" bg="dark" expand="lg">
-            <Container fluid>
-                <Nav>
-                    <NavDropdown id="nav-dropdown-dark-example" title="Categorías" menuVariant="dark">
+        <Navbar className="navbar-desktop py-0" variant="ligth" bg="ligth" expand="lg">
+            <Container className="py-0">
+                <Nav className="navbar-desktop-leftItemsNav py-0">
+                    <NavDropdown className="py-0" id="nav-dropdown-dark-example" title="Categorías" menuVariant="dark">
                             <NavDropdown.Item href="#">Autos</NavDropdown.Item>
                             <NavDropdown.Item href="#">Inmuebles</NavDropdown.Item>
                             <NavDropdown.Item href="#">Tecnología</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="">Ofertas</Nav.Link>
-                    <Nav.Link href="">Historial</Nav.Link>
-                    <Nav.Link href="">Supermercado</Nav.Link>
-                    <Nav.Link href="">Moda</Nav.Link>
-                    <Nav.Link href="">Vender</Nav.Link>
-                    <Nav.Link href="">Ayuda</Nav.Link>
+                    <Nav.Link className="py-0" href="">Ofertas</Nav.Link>
+                    <Nav.Link className="py-0" href="">Historial</Nav.Link>
+                    <Nav.Link className="py-0" href="">Supermercado</Nav.Link>
+                    <Nav.Link className="py-0" href="">Moda</Nav.Link>
+                    <Nav.Link className="py-0" href="">Vender</Nav.Link>
+                    <Nav.Link className="py-0" href="">Ayuda</Nav.Link>
                 </Nav>
-                <Nav>
-                    <NavDropdown id="nav-dropdown-dark-example" title="UserName" menuVariant="dark">
+                <Nav className="navbar-desktop-rigthItemsNav py-0 align-items-center">
+                    <NavDropdown className="py-0" id="nav-dropdown-dark-example" title="UserName" menuVariant="dark">
                                 <NavDropdown.Item href="#">UserLevel</NavDropdown.Item>
                                 <NavDropdown.Item href="#">Compras</NavDropdown.Item>
                                 <NavDropdown.Item href="#">Preguntas</NavDropdown.Item>
@@ -36,14 +37,15 @@ function NavBarDesktop() {
                                 <NavDropdown.Item href="#">Privacidad</NavDropdown.Item>
                                 <NavDropdown.Item href="#">Vender</NavDropdown.Item>
                                 <NavDropdown.Item href="#">Salir</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link href="">Mis compras</Nav.Link>
-                        <NavDropdown id="nav-dropdown-dark-example" title="Favoritos" menuVariant="dark">
-                            <NavDropdown.Item href="#">Favorito 1</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Favorito 2</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Favorito 3</NavDropdown.Item>
                     </NavDropdown>
-                        <Nav.Link href=""><img src={notifIcon} height="20px" alt="bell icon"/></Nav.Link>
+                    <Nav.Link className="py-0" href="">Mis compras</Nav.Link>
+                    <NavDropdown className="py-0" id="nav-dropdown-dark-example" title="Favoritos" menuVariant="dark">
+                        <NavDropdown.Item href="#">Favorito 1</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Favorito 2</NavDropdown.Item>
+                        <NavDropdown.Item href="#">Favorito 3</NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link className="py-0" href=""><img src={notifIcon} alt="bell icon" className="navbar-desktop-notifIcon"/></Nav.Link>
+                    <Nav.Link className="py-0 pe-0" href=""><CartWidget/></Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

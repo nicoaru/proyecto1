@@ -1,3 +1,7 @@
+.navbar-brand {
+    margin-right: 60px !important;
+    padding: 3px !important;
+}
 .navbar-brand-imgSm {
     height: 32px;
 }

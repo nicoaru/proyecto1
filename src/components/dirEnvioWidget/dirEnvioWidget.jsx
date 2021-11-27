@@ -6,12 +6,14 @@ import "./dirEnvioWidget.css"
 
 
 
-function DirEnvioWidget() {
+function DirEnvioWidget({className}) {
     return(
-        <div className="datosEnvio">
-            <img src={location} alt="location point icon" height="22px"/>
-            <p>Enviar a Nombre</p>
-            <p>Dirección</p>
+        <div className={className+" dirEnvioContainer"}>
+            <img src={location} alt="location point icon" height="24px"/>
+            <div className="datosEnvioContainer">
+                <p className="datosEnvioContainer-nombre">Enviar a Nombre</p>
+                <p className="datosEnvioContainer-direccion">Dirección</p>
+            </div>
         </div>
     )
 

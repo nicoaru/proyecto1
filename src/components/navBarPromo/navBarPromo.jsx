@@ -1,15 +1,15 @@
 import React from "react"
-import navBarPromoImg from "../../recursos/promo_mes_img.webp"
+import navBarPromoImg from "../../recursos/promo_mes_img.png"
 import "./navBarPromo.css"
 
 
 
 
-function NavBarPromo() {
+function NavBarPromo({className}) {
     return(
-        <div>
-            <img src={navBarPromoImg} alt="promo del mes" height="39px"/>
-        </div>
+
+            <img className={className} src={navBarPromoImg} alt="promo del mes" height="39px"/>
+
     )
 }
 

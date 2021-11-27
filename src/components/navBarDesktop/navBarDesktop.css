@@ -1,1 +1,46 @@
+.dropdown .dropdown-toggle {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-desktop {
+    flex-grow: 1;
+}
+
+/* ITEMS NAVBAR IZQUIERDO */
+.navbar-desktop-leftItemsNav {
+    line-height: 22px;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar-desktop-leftItemsNav a, .navbar-desktop-leftItemsNav a:link, .navbar-desktop-leftItemsNav a:visited {
+    color: rgba(51,51,51,.6);
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+.navbar-desktop-leftItemsNav a:active, .navbar-desktop-leftItemsNav a:focus, .navbar-desktop-leftItemsNav a:hover {
+    color: rgba(51,51,51,.9);
+}
+
+/* ITEMS NAVBAR DERECHO */
+.navbar-desktop-rigthItemsNav {
+    line-height: 22px;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar-desktop-rigthItemsNav a, .navbar-desktop-rigthItemsNav a:link, .navbar-desktop-rigthItemsNav a:visited {
+    color: #404040;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+.navbar-desktop-rigthItemsNav a:active, .navbar-desktop-rigthItemsNav a:focus, .navbar-desktop-rigthItemsNav a:hover {
+    color: #000000;
+}
+.navbar-desktop-notifIcon {
+    height: 16px;
+}
 

@@ -7,9 +7,9 @@ import "./navBarPromo.css"
 
 function NavBarPromo({className}) {
     return(
-
-            <img className={className} src={navBarPromoImg} alt="promo del mes" height="39px"/>
-
+        <div className={className}>
+            <img src={navBarPromoImg} alt="promo del mes" height="39px"/>
+        </div>
     )
 }
 

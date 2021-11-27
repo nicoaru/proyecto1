@@ -23,7 +23,7 @@
     max-width: 600px;
     flex-grow: 3;
 }
-.navbarPromo-comp {
+.navBarPromo-comp {
     flex-grow: 1;
     text-align: end;
 }

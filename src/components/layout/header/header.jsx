@@ -16,7 +16,7 @@ function Header() {
     return(
         <header className="header">
             <Container className="navbar-wrapper" fluid='xl'>
-                <div className="navbar-top-wrapper">
+                <div className="navbar-top-wrapper justify-content-start">
                     <NavBarBrand/>
                     <NavSearch className="navSearch-comp"/>
                     <ForMobile>
@@ -25,11 +25,9 @@ function Header() {
                     <ForMobile>
                         <CartWidget/>
                     </ForMobile>
-                    <div className='navbarPromo-container'>
-                        <ForDesktop>
-                            <NavBarPromo className="navBarPromo-comp"/>
-                        </ForDesktop>                          
-                    </div>
+                    <ForDesktop>
+                        <NavBarPromo className="navBarPromo-comp"/>
+                    </ForDesktop>                          
                 </div>
                 <div className="navbar-bottom-wrapper">
                     <DirEnvioWidget className="dirEnvio-comp"/>

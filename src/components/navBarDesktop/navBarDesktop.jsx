@@ -13,17 +13,17 @@ function NavBarDesktop() {
         <Navbar className="navbar-desktop py-0" variant="ligth" bg="ligth" expand="lg">
             <Container className="py-0">
                 <Nav className="navbar-desktop-leftItemsNav py-0">
-                    <NavDropdown className="py-0" id="nav-dropdown-dark-example" title="Categorías" menuVariant="dark">
+                    <NavDropdown className="nav-item-categorias py-0" id="nav-dropdown-dark-example" title="Categorías" menuVariant="dark">
                             <NavDropdown.Item href="#">Autos</NavDropdown.Item>
                             <NavDropdown.Item href="#">Inmuebles</NavDropdown.Item>
                             <NavDropdown.Item href="#">Tecnología</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link className="py-0" href="">Ofertas</Nav.Link>
-                    <Nav.Link className="py-0" href="">Historial</Nav.Link>
-                    <Nav.Link className="py-0" href="">Supermercado</Nav.Link>
-                    <Nav.Link className="py-0" href="">Moda</Nav.Link>
-                    <Nav.Link className="py-0" href="">Vender</Nav.Link>
-                    <Nav.Link className="py-0" href="">Ayuda</Nav.Link>
+                    <Nav.Link className="nav-item-ofertas py-0" href="">Ofertas</Nav.Link>
+                    <Nav.Link className="nav-item-historial py-0" href="">Historial</Nav.Link>
+                    <Nav.Link className="nav-item-supermercado py-0" href="">Supermercado</Nav.Link>
+                    <Nav.Link className="nav-item-moda py-0" href="">Moda</Nav.Link>
+                    <Nav.Link className="nav-item-vender py-0" href="">Vender</Nav.Link>
+                    <Nav.Link className="nav-item-ayuda py-0" href="">Ayuda</Nav.Link>
                 </Nav>
                 <Nav className="navbar-desktop-rigthItemsNav py-0 align-items-center">
                     <NavDropdown className="py-0" id="nav-dropdown-dark-example" title="UserName" menuVariant="dark">

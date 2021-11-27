@@ -23,6 +23,22 @@
 .navbar-desktop-leftItemsNav a:active, .navbar-desktop-leftItemsNav a:focus, .navbar-desktop-leftItemsNav a:hover {
     color: rgba(51,51,51,.9);
 }
+.nav-item-moda {
+    display: none !important; 
+} 
+    @media (min-width: 1200px) {
+        .nav-item-moda {
+            display: block !important; 
+        } 
+    }
+.nav-item-supermercado {
+    display: none !important;
+}
+    @media (min-width: 1095px) {
+        .nav-item-supermercado {
+            display: block !important;
+        }
+    }
 
 /* ITEMS NAVBAR DERECHO */
 .navbar-desktop-rigthItemsNav {
